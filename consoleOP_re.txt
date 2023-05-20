@@ -1,0 +1,156 @@
+Python 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 17:54:52) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx1.py 
+matchObj.group()  :  Cats are smarter than Dogs
+matchObj.group(1) :  Cats
+matchObj.group(2) :  smarter
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx1.py 
+No Match!!
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx1.py 
+matchObj.group()  :  Cats tare smarter than Dogs
+matchObj.group(1) :  Cats
+matchObj.group(2) :  smarter
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Isaac Newton, Physicist
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Isaac Newton, Physicist
+Isaac
+Traceback (most recent call last):
+  File "C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py", line 6, in <module>
+    print (m.gorup(2))
+AttributeError: '_sre.SRE_Match' object has no attribute 'gorup'
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Isaac Newton, Physicist
+Isaac
+Newton
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Isaac Newton, Physicist
+Isaac
+Newton
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Isaac Newton, Physicist
+Isaac
+Newton
+Physicist
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Traceback (most recent call last):
+  File "C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py", line 4, in <module>
+    print (m.group())
+AttributeError: 'NoneType' object has no attribute 'group'
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Isaac Newton,  Physicist
+Isaac
+Newton
+Physicist
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Traceback (most recent call last):
+  File "C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py", line 5, in <module>
+    print (m.group())
+AttributeError: 'NoneType' object has no attribute 'group'
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Isaac Newton,  Physicist
+Isaac
+Physicist
+Traceback (most recent call last):
+  File "C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py", line 8, in <module>
+    print (m.group(3))
+IndexError: no such group
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Isaac Newton,  Physicist
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Traceback (most recent call last):
+  File "C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py", line 5, in <module>
+    print (m.group())
+AttributeError: 'NoneType' object has no attribute 'group'
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Failed
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Success
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Success
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Success
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Failed
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Failed
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Success
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Success
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchEx2.py 
+Isaac Newton,  Physicist
+Isaac
+Newton
+Physicist
+Success
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_searchEx1.py 
+searchObj.group() : Cats are smarter than Dogs
+searchObj.group(1): Cats
+searchObj.group(2): smarter
+>>> import re
+>>> re.match("c", "abcde")
+>>> re.search("c", "abcde")
+<_sre.SRE_Match object; span=(2, 3), match='c'>
+>>> print (re.search("c", "abcde"))
+<_sre.SRE_Match object; span=(2, 3), match='c'>
+>>> re.match("a", "abcde")
+<_sre.SRE_Match object; span=(0, 1), match='a'>
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchVSsearchEx.py 
+Match is Not success
+Traceback (most recent call last):
+  File "C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchVSsearchEx.py", line 14, in <module>
+    if searchObj:
+NameError: name 'searchObj' is not defined
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchVSsearchEx.py 
+Match is Not success
+Search is success
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re_matchVSsearchEx.py 
+Match is success
+Search is success
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re.searchEx2.py 
+def
+>>> 
+ RESTART: C:/Users/gchandrashekharappa/AppData/Local/Programs/Python/Python36-32/Prathima/re.searchEx2.py 
+egg
+>>> re.match("a", "abcde")
+<_sre.SRE_Match object; span=(0, 1), match='a'>
+>>> re.match("b", "abcde")
+>>> re.search("a", "abcde")
+<_sre.SRE_Match object; span=(0, 1), match='a'>
+>>> re.search("d", "abcde")
+<_sre.SRE_Match object; span=(3, 4), match='d'>
+>>> re.search("^d", "abcde")
+>>> re.search("^a", "abcde")
+<_sre.SRE_Match object; span=(0, 1), match='a'>
+>>> 
